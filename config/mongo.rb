@@ -5,7 +5,7 @@ Mongo::Logger.level = log_level
 
 Mongoid.configure do |config|
   uri = if Errbit::Config.mongo_url == 'mongodb://localhost'
-          "mongodb://localhost/errbit_#{Rails.env}"
+          "mongodb://ip-172-31-12-223/errbit_#{Rails.env}"
         else
           Errbit::Config.mongo_url
         end

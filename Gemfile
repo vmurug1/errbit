@@ -98,6 +98,7 @@ group :heroku, :production do
 end
 
 gem 'puma'
+gem 'thin'
 gem 'therubyracer', platform: :ruby # C Ruby (MRI) or Rubinius, but NOT Windows
 gem 'sass-rails'
 gem 'uglifier'
