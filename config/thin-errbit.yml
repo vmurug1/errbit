@@ -1,9 +1,9 @@
-chdir: /home/ubuntu/errbit/public
+chdir: /home/ubuntu/errbit
 environment: production
 timeout: 30
-log: tmp/thin/thin.log
-pid: tmp/thin/thin.pid
-socket: tmp/thin.vandaproduction.sock
+log: log/thin.log
+pid: tmp/pids/thin.pid
+socket: tmp/sockets/thin.vandaproduction.sock
 max_conns: 1024
 max_persistent_conns: 100
 require: []

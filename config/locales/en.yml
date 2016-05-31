@@ -17,7 +17,7 @@ en:
 
   layouts:
     application:
-      title: 'Errbit'
+      title: 'Vanda Errbit'
       errbit: 'Errbit'
       powered_html: "Powered by %{link} : the open source error catcher."
 
